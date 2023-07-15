@@ -1,0 +1,148 @@
+main.dash .tablee {
+    box-shadow: rgba(163, 163, 163, 0.39) 0px 5px 11px -4.5px;
+    height: auto;
+    background-color: white;
+    width: 100%;
+}
+main.dash .tablee table#table_phase{
+    width: 100%;
+    border: none;
+}
+main.dash .tablee table#table_phase thead{
+    background: #e9f3ff;
+    height: 45px;
+}
+main.dash .tablee table#table_phase thead tr th{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0717cd;
+    text-align: center;
+    border-bottom: none;
+    padding:  0 30px;
+    vertical-align: middle;
+} 
+main.dash .tablee table#table_phase thead tr th.action::after{
+    content: '';
+} 
+main.dash .tablee table#table_phase thead tr th.action::before{
+    content: '';
+} 
+main.dash .tablee table#table_phase thead tr th.action{
+    width: 123px;
+}
+
+
+main.dash .tablee table#table_phase tbody tr td{
+    font-size: 13px;
+    padding: 5px 0;
+    text-align: center;
+    height: 50px;
+    color: rgba(0, 40, 92, 0.879);
+    border-bottom: 1px solid rgba(184, 184, 184, 0.235);
+    vertical-align: middle;
+}
+main.dash .tablee table#table_phase tbody tr td.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main.dash .tablee table#table_phase tbody tr td.action .btn_voir_prjt{
+    background-color: #01ffe12f;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+main.dash .tablee table#table_phase tbody tr td.action .btn_voir_prjt i{
+    color: #08726d;font-size: 14.5px;
+}
+main.dash .tablee table#table_phase tbody tr td.action .btn_modif_discipline{
+    background-color: #0184ff3f;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+main.dash .tablee table#table_phase tbody tr td.action .btn_modif_discipline i{
+    color: #0011ff;font-size: 14.5px;
+}
+main.dash .tablee table#table_phase tbody tr td.action .btn_suprm_discipline{
+    background-color: #ff010140;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+main.dash .tablee table#table_phase tbody tr td.action .btn_suprm_discipline i{
+    color: #ff0000;
+    font-size: 14.5px;
+}
+main.dash .tablee table#table_phase tbody  form.form_discipline input{
+    border: none;
+    text-align: center;
+}
+.container_discipline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul#tab_discipline {
+    flex-wrap: wrap;
+}
+button.btn_phase {
+    width: 100%;
+}
+
+.div_ajouter_discipline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button.btn_ajouter_discipline {
+    background-color: #017bff;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0.4rem 0.5rem;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button.reset_discipline {
+    background-color: #ff010140;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+
+i.fa-solid.fa-xmark {
+    color: #ff0000;
+    font-size: 14.5px;
+}
+
+button.valider_discipline {
+    background-color: #0184ff3f;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+
+
+i.fa-solid.fa-check {
+
+    color: #0011ff;
+    font-size: 14.5px;
+}
+.td.col-3 {
+    display: flex;
+    justify-content: space-around;
+}
+/***=====-p0lo==================jquery=========================== **/
